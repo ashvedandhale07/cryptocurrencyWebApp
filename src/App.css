@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.subheader{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subheader h3{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.cryptoList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.cryptoList div{
+  width: 500px;
+  height: 200px;
+  background-color: teal;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.cryptoList div:hover{
+  cursor: pointer;
+}
+
+.curr{
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-bottom: 150px;
+  background-color: teal;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+h1{
+  font-weight: bolder;
+}
+
+.externalPlatforms h2{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color:yellowgreen;
+}
+a:active{
+  color: white;
+}
